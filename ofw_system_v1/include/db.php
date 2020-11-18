@@ -1,12 +1,12 @@
 <?php
-	$con = mysqli_connect("localhost","u577886912_ofw","yaramay2019!","u577886912_ofw");
+	$con = mysqli_connect("localhost","urafnghd_ofw","","urafnghd_ofw");
 
 	if(mysqli_connect_errno()){
 
 		echo "Failed to connect to MYSQL: " . mysqli_connect_error();
 		
 	}
-	$conn = mysqli_connect("localhost","u577886912_polo","polo2019","u577886912_polo");
+	$conn = mysqli_connect("localhost","urafnghd_polo","","urafnghd_polo");
 
 	if(mysqli_connect_errno()){
 
