@@ -20,29 +20,79 @@
     <link rel="stylesheet" href="css2/flaticon.css">
     <link rel="stylesheet" href="css2/icomoon.css">
     <link rel="stylesheet" href="css2/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
+<style>
+     .navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 8rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    align-items: center !important;  
+}
+.bg-light {
+    background-color: #002157!important;
+}
+.navbar-light .navbar-brand {
+    color: var(--white);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: var(--white);
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255 0 0);
+}
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: var(--white);
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+      </style>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar" data-aos="fade-down" data-aos-delay="500">
-      <div class="container">
-        <a class="navbar-brand" href="index.php">Y A R A M A Y</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="oi oi-menu"></span> Menu
-        </button>
-        <div class="collapse navbar-collapse" id="ftco-nav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="services.php" class="nav-link">Services</a></li>
-            <li class="nav-item"><a href="packages.php" class="nav-link">Packages</a></li>
-            <li class="nav-item"><a href="team.php" class="nav-link">Team</a></li>
-            <li class="nav-item active"><a href="contact.php" class="nav-link">Contact</a></li>
-            <li class="nav-item"><a href="tabang.php" class="nav-link">Tabang</a></li>
-            <li class="nav-item"><a href="ofw_system_v1/index.php" class="nav-link">System V1</a></li>
-            <li class="nav-item"><a href="system_v2/login.php" class="nav-link">System V1.1</a></li>
-            <li class="nav-item"><a href="ofw_system2/login.php" class="nav-link">System V2</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+	 <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Y A R A M A Y</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.php">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="packages.php">Packages</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="team.php">Team</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="contact.php">Contact<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="tabang.php">Tabang</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="ofw_system_v1/index.php">System V1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="system_v2/login.php">System V1.1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="ofw_system2/login.php">System V2</a>
+      </li>
+      
+    </ul>
+  </div>
+</nav>
     <section class="ftco-cover" style="background-image: url(img/contact_us_2.png);" id="section-home" data-aos="fade"  data-stellar-background-ratio="0.5">
       <div class="container">
         <div class="row align-items-center ftco-vh-100">
@@ -154,5 +204,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script><span 
 	<script src="js2/aos.js"></script>
 	<script src="js2/jquery.animateNumber.min.js"></script>
 	<script src="js2/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
